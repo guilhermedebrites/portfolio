@@ -1,0 +1,49 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./presentation.css);
+@import url(./about.css);
+@import url(./tecnology.css);
+@import url(./projects.css);
+@import url(./certificates.css);
+@import url(./contact.css);
+@import url(./footer.css);
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+body {
+    background-color: #17194B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+@keyframes fluter {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}

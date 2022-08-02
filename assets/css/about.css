@@ -1,0 +1,23 @@
+.about {
+    padding-top: 5em;
+    text-align: center;
+}
+
+.about-tittle {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-description {
+    font-size: 12px;
+    color: lightgray;
+    line-height: 1.5em;
+    margin: 0 3rem;
+}
+
+.photo-about {
+    width: 20rem;
+    animation: fluter 3s ease-in-out infinite;
+}

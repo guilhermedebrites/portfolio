@@ -1,0 +1,74 @@
+.projects {
+    padding-top: 5em;
+}
+
+.projects-tittle {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tittle-card {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: #7B66AB;
+}
+
+.subtittle-card {
+    font-size: 12px;
+    color: lightgray;
+    text-align: center;
+    margin: .5rem 2.5rem;
+}
+
+.links-project {
+    text-align: center;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-icon {
+    width: 1.5rem;
+    padding: 0 .5em;
+    opacity: 0.7;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.project-card {
+    width: 20rem;
+    height: 10rem;
+    border: 2px solid #7B66AB;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.proj {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alurabooks {
+    background-image: url(../img/project-AluraBooks.png);
+}
+
+.hzc {
+    background-image: url(../img/projeto-HZC.png);
+}
+
+.opttech {
+    background-image: url(../img/project-OptimusTech.png);
+}
+
+.aluraplus {
+    background-image: url(../img/project-AluraPlus.png);
+}

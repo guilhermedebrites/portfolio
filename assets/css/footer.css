@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 5em;
+    text-align: center;
+    background-color: #0e0f33;
+    height: 30vh;
+}
+
+.footer-logo {
+    padding: 3em 0;
+    width: 8rem;
+}
+
+.sociais-footer {
+    width: 1.5rem;
+    margin: 1em .5em;
+    opacity: 0.5;
+}
+
+.links-itens {
+    text-decoration: none;
+    color: gray;
+    padding: 0 .5em;
+}

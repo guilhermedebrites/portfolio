@@ -1,0 +1,95 @@
+.tecnology {
+    padding-top: 5em;
+}
+
+.tecnology-tittle {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: .3rem;
+    text-align: center;
+}
+
+.subtittle {
+    display: flex;
+    justify-content: center;
+}
+
+.tecnology-describe {
+    font-size: 12px;
+    color: lightgray;
+    margin-bottom: 2rem;
+    width: 70%;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+}
+
+.container {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 20%;
+}
+
+.photo-language {
+    width: 1.5rem;
+}
+
+.tittle-language {
+    font-size: 10px;
+}
+
+.progresso {
+    margin-top: .2rem;
+    border: solid 1px gray;
+    width: 50%;
+    height: .6em;
+    border-radius: 15px;
+    padding: 3px;
+    text-align: center;
+}
+
+.quant {
+    background-color: blueviolet;
+    height: .6em;
+    border-radius: 15px;
+}
+
+.qhtml {
+    width: 80%;
+}
+
+.qcss {
+    width: 80%;
+}
+
+.qjs {
+    width: 40%;
+}
+
+.qreact {
+    width: 10%;
+}
+
+.qnode {
+    width: 10%;
+}
+
+.qcsharp {
+    width: 50%;
+}
+
+.qdotnet {
+    width: 40%;
+}
+
+#csharp {
+    width: 2.3rem;
+}
+
+#react {
+    width: 1.8rem;
+}

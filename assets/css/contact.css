@@ -1,0 +1,78 @@
+.contact {
+    padding-top: 5em;
+}
+
+.tittle-contact {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-social {
+    width: 2rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+#discord {
+    width: 2.3rem;
+}
+
+.dados {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contact-dados {
+    line-height: 2em;
+    font-weight: 700;
+}
+
+.contact-describe {
+    color: lightgray;
+}
+
+.form-tittle {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inputName, .inputEmail, .textAreaMensagem {
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.inputName, .inputEmail {
+    height: 2rem;
+}
+
+.inputEmail {
+    margin: 1rem 0;
+}
+
+.button-submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .5em 2em;
+    background-color: #17194B;
+    border: 1px solid lightgray;
+    color: lightgray;
+}

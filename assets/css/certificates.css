@@ -1,0 +1,108 @@
+.certificates {
+    padding-top: 5em;
+}
+
+.tittle-certificates {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: .3rem;
+    text-align: center;
+}
+
+.container-certificates {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.disappear {
+    display: none;
+}
+
+.tittle-card-projects {
+    font-size: 16px;
+    text-align: center;
+    margin: 1rem 2rem;
+    color: #7B66AB;
+}
+
+.certificates-card {
+    width: 20rem;
+    height: 13rem;
+    border: 2px solid #7B66AB;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.certi {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.certihtmlcss {
+    background-image: url(../img/certificado-htmlcss.png);
+}
+
+.certiresponsividade {
+    background-image: url(../img/certificado-resposividade.png);
+}
+
+.certihttp {
+    background-image: url(../img/certificado-http.png);
+}
+
+.certijsexp {
+    background-image: url(../img/certificado-jsexp.png);
+}
+
+.certijweb {
+    background-image: url(../img/certificado-jweb.png);
+}
+
+.certicsharp {
+    background-image: url(../img/certificado-csharp.png);
+}
+
+.certiapirestdotnet {
+    background-image: url(../img/certificado-apirestdotnet.png);
+}
+
+.certicsharpparalelismo {
+    background-image: url(../img/certificado-csharpparalelismo.png);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.showmore {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding: .5em;
+    background-color: #7B66AB;
+    border: 1px solid #7B66AB;
+    border-radius: 5px;
+}
+
+.showless {
+    display: none;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding: .5em;
+    background-color: #7B66AB;
+    border: 1px solid #7B66AB;
+    border-radius: 5px;
+}
+
+.activeshow {
+    display: block;
+}

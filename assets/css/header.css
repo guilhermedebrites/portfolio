@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    padding-top: .5rem;
+    background-color: #0e0f33;
+    width: 100%;
+    z-index: 98;
+}
+
+.logo-div {
+    margin-left: 5rem;
+}
+
+.logo-header {
+    width: 6rem;
+}
+
+.menu-bar {
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(182, 180, 180);
+    border-radius: 30px;
+    margin-bottom: .25rem;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+}
+
+.menu-list {
+    background-color: #0e0f33;
+}
+
+.active {
+    display: block;
+}
+
+.item-list-top {
+    margin-top: 13rem;
+}
+
+.item-list {
+    padding: .4rem;
+}
+
+.link-list {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
