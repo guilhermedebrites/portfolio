@@ -11,7 +11,7 @@
 }
 
 .sociais-footer {
-    width: 1.5rem;
+    width: 1.6rem;
     margin: 1em .5em;
     opacity: 0.5;
 }
@@ -20,4 +20,12 @@
     text-decoration: none;
     color: gray;
     padding: 0 .5em;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#discord {
+    width: 1.8rem;
 }

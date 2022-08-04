@@ -6,6 +6,7 @@
     padding-top: .5rem;
     background-color: #0e0f33;
     width: 100%;
+    height: 3rem;
     z-index: 98;
 }
 
@@ -14,7 +15,12 @@
 }
 
 .logo-header {
-    width: 6rem;
+    display: block;
+    width: 7rem;
+}
+
+.logo-disable {
+    display: none;
 }
 
 .menu-bar {
@@ -32,28 +38,28 @@
 
 .menu-list {
     display: none;
-    position: absolute;
+    position: fixed;
+    top: 3rem;
+    height: 100vh;
+    background-color: #0e0f33;
 }
 
-.menu-list {
-    background-color: #0e0f33;
+.menu-img {
+    width: 10rem;
+    margin: 2rem 1rem;
 }
 
 .active {
     display: block;
 }
 
-.item-list-top {
-    margin-top: 13rem;
-}
-
 .item-list {
-    padding: .4rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
 }
 
 .link-list {
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
 }

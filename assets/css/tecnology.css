@@ -25,10 +25,10 @@
 
 .language {
     display: flex;
+    justify-content: center;
 }
 
 .container {
-    margin-left: 1em;
     margin-bottom: 1em;
     text-align: center;
     width: 20%;
