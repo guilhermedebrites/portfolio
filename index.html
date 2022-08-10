@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -20,15 +20,18 @@
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-        <ul class="menu-list">
-            <img src="./assets/img/logodebrites.png" alt="Logo GuilhermeDeBrites" class="menu-img">
-            <li class="item-list"><a href="#" class="link-list">Inicio</a></li>
-            <li class="item-list"><a href="#about" class="link-list">Sobre</a></li>
-            <li class="item-list"><a href="#tecnology" class="link-list">Tecnologias</a></li>
-            <li class="item-list"><a href="#projects" class="link-list">Projetos</a></li>
-            <li class="item-list"><a href="#certificates" class="link-list">Certificados</a></li>
-            <li class="item-list"><a href="#contact" class="link-list">Contato</a></li>
-        </ul>
+        <div class="header-flex-desktop">
+            <img src="./assets/img/logodebrites.png" alt="Logo GuilhermeDeBrites" class="header-desktop">
+            <ul class="menu-list">
+                <img src="./assets/img/logodebrites.png" alt="Logo GuilhermeDeBrites" class="menu-img">
+                <li class="item-list"><a href="#" class="link-list">Inicio</a></li>
+                <li class="item-list"><a href="#about" class="link-list">Sobre</a></li>
+                <li class="item-list"><a href="#tecnology" class="link-list">Tecnologias</a></li>
+                <li class="item-list"><a href="#projects" class="link-list">Projetos</a></li>
+                <li class="item-list"><a href="#certificates" class="link-list">Certificados</a></li>
+                <li class="item-list"><a href="#contact" class="link-list">Contato</a></li>
+            </ul>
+        </div>
         <div class="logo-div">
             <img src="./assets/img/logodebrites.png" alt="Logotipo GuilhermeDeBrites" class="logo-header">
         </div>
@@ -36,13 +39,15 @@
 
     <section class="presentation">
         <div class="presentation-tittle">
-            <h1 class="name-presentation">Olá, meu nome é<span id="name-span">Guilherme.</span></h1>
+            <h1 class="name-presentation">Olá, meu</h1>
+            <h1 class="name-presentation">nome é<span id="name-span">Guilherme.</span></h1>
             <p class="describe-presentation">Desenvolvedor de Software, otimizar seu trabalho é o meu foco.</p>
         </div>
         <img src="./assets/img/apresentation.svg" alt="Imagem representativa de uma apresentação" class="photo-presentation">
     </section>
 
     <section class="about" id="about">
+        <div class="about-container">
             <h2 class="about-tittle">Sobre Mim</h2>
             <p class="about-description">
                 Tenho 17 anos, sou de Belo Horizonte-MG 
@@ -53,6 +58,7 @@
                 evoluindo, sou uma pessoa bastante comunicativa que consegue estabelecer relações bastante agradáveis com 
                 companheiros de equipe.
             </p>
+        </div>
             <img src="./assets/img/team.svg" alt="Imagem representativa de um trabalho em equipe" class="photo-about">
         </div>
     </section>
@@ -63,128 +69,168 @@
         <div class="subtittle">
         <p class="tecnology-describe">Linguagens sem porcentagem, são as que pretendo adquirir conhecimento</p>
         </div>
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/html-5.png" alt="Ícone da linguagem HTML" class="photo-language">
-                <p class="tittle-language">HTML-5</p>
+
+        <div class="language-flexcontainer">
+
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/html-5.png" alt="Ícone da linguagem HTML" class="photo-language">
+                    <p class="tittle-language">HTML-5</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qhtml"></div>
+                </div>
             </div>
-            <div class="progresso">
-                <div class="quant qhtml"></div>
+
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/css-3.png" alt="Ícone da linguagem CSS" class="photo-language">
+                    <p class="tittle-language">CSS-3</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qcss"></div>
+                </div>
+            </div>
+        </div>
+        <div class="language-flexcontainer">
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/javascript.png" alt="Ícone da linguagem JS" class="photo-language">
+                    <p class="tittle-language">JAVASCRIPT</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qjs"></div>
+                </div>
+            </div>
+
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/react.png" alt="Ícone da linguagem React.js" class="photo-language" id="react">
+                    <p class="tittle-language">REACT.js</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qreact"></div>
+                </div>
+            </div>
+        </div>
+        <div class="language-flexcontainer">
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/nodejs.png" alt="Ícone da linguagem Node.js" class="photo-language" id="react">
+                    <p class="tittle-language">NODE.js</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qnode"></div>
+                </div>
+            </div>
+
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/csharp.png" alt="Ícone da linguagem C#" class="photo-language" id="csharp">
+                    <p class="tittle-language">C#</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qcsharp"></div>
+                </div>
             </div>
         </div>
 
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/css-3.png" alt="Ícone da linguagem CSS" class="photo-language">
-                <p class="tittle-language">CSS-3</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qcss"></div>
-            </div>
-        </div>
-
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/javascript.png" alt="Ícone da linguagem JS" class="photo-language">
-                <p class="tittle-language">JAVASCRIPT</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qjs"></div>
+        <div class="language-flexcontainer">
+            <div class="language">
+                <div class="container">
+                    <img src="./assets/img/dotnet.png" alt="Ícone da linguagem .NET" class="photo-language">
+                    <p class="tittle-language">.NET</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qdotnet"></div>
+                </div>
             </div>
         </div>
 
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/react.png" alt="Ícone da linguagem React.js" class="photo-language" id="react">
-                <p class="tittle-language">REACT.js</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qreact"></div>
-            </div>
-        </div>
-
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/nodejs.png" alt="Ícone da linguagem Node.js" class="photo-language" id="react">
-                <p class="tittle-language">NODE.js</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qnode"></div>
-            </div>
-        </div>
-
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/csharp.png" alt="Ícone da linguagem C#" class="photo-language" id="csharp">
-                <p class="tittle-language">C#</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qcsharp"></div>
-            </div>
-        </div>
-
-        <div class="language">
-            <div class="container">
-                <img src="./assets/img/dotnet.png" alt="Ícone da linguagem .NET" class="photo-language">
-                <p class="tittle-language">.NET</p>
-            </div>
-            <div class="progresso">
-                <div class="quant qdotnet"></div>
-            </div>
-        </div>
     </section>
 
     <section class="projects" id="projects">
         <h4 class="projects-tittle">Projetos</h3>
 
-        <div class="container-project">
-            <p class="tittle-card">ALURA BOOKS</p>
-            <p class="subtittle-card">Site responsivo, usando tecnologias HTML & CSS, 
-                produzido com base em um curso da plataforma Alura.
-            </p>
-            <div class="links-project">
-                <a href="https://github.com/guilhermedebrites/aluraBooks" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
-                <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+        <div class="projects-flexcontainer">
+            <div class="container-project">
+                <div class="contentproject-container">
+                    <p class="tittle-card">ALURA BOOKS</p>
+                    <p class="subtittle-card">Site responsivo, usando tecnologias HTML & CSS, 
+                        produzido com base em um curso da plataforma Alura.
+                    </p>
+                    <div class="links-project">
+                        <a href="https://github.com/guilhermedebrites/aluraBooks" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
+                        <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+                    </div>
+                </div>
+                <div class="project-card proj alurabooks desktop" id="alurabooks"></div>
+                <a href="https://guilhermedebrites.github.io/aluraBooks/"><div class="project-card proj alurabooks mobile"></div></a>
             </div>
-            <a href="https://guilhermedebrites.github.io/aluraBooks/"><div class="project-card proj alurabooks"></div></a>
-        </div>
 
-        <div class="container-project">
-            <p class="tittle-card">HZC</p>
-            <p class="subtittle-card">Site responsivo, usando tecnologias HTML & CSS, nesse projeto
-                foi bastante utilizado flex e gridbox, desenvolvido a partir de um layout no Figma,
-                disponibilizado pela plataforma Alura.
-            </p>
-            <div class="links-project">
-                <a href="https://github.com/guilhermedebrites/utilizando_grid-FlexBox" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
-                <a href="https://guilhermedebrites.github.io/utilizando_grid-FlexBox/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+            <div class="container-project">
+                <div class="contentproject-container">
+                    <p class="tittle-card">HZC</p>
+                    <p class="subtittle-card">Site responsivo, usando tecnologias HTML & CSS, nesse projeto
+                        foi bastante utilizado flex e gridbox, desenvolvido a partir de um layout no Figma,
+                        disponibilizado pela plataforma Alura.
+                    </p>
+                    <div class="links-project">
+                        <a href="https://github.com/guilhermedebrites/utilizando_grid-FlexBox" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
+                        <a href="https://guilhermedebrites.github.io/utilizando_grid-FlexBox/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+                    </div>
+                </div>
+                <div class="project-card proj hzc desktop" id="hzc"></div>
+                <a href="https://guilhermedebrites.github.io/utilizando_grid-FlexBox/"><div class="project-card proj hzc mobile"></div></a>
             </div>
-            <a href="https://guilhermedebrites.github.io/utilizando_grid-FlexBox/"><div class="project-card proj hzc"></div></a>
-        </div>
 
-        <div class="container-project">
-            <p class="tittle-card">OPTIMUS TECH</p>
-            <p class="subtittle-card">Site apenas para Desktop, desafio 7daysOfCode de HTML & CSS, desafio proposto pela
-                plataforma Alura, concluído com sucesso.
-            </p>
-            <div class="links-project">
-                <a href="https://github.com/guilhermedebrites/OptimusTech" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
-                <a href="https://guilhermedebrites.github.io/OptimusTech/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+            <div class="container-project">
+                <div class="contentproject-container">
+                    <p class="tittle-card">OPTIMUS TECH</p>
+                    <p class="subtittle-card">Site apenas para Desktop, desafio 7daysOfCode de HTML & CSS, desafio proposto pela
+                        plataforma Alura, concluído com sucesso.
+                    </p>
+                    <div class="links-project">
+                        <a href="https://github.com/guilhermedebrites/OptimusTech" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
+                        <a href="https://guilhermedebrites.github.io/OptimusTech/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+                    </div>
+                </div>
+                <div class="project-card proj opttech desktop" id="opttech"></div>
+                <a href="https://guilhermedebrites.github.io/OptimusTech/"><div class="project-card proj opttech mobile"></div></a>
             </div>
-            <a href="https://guilhermedebrites.github.io/OptimusTech/"><div class="project-card proj opttech"></div></a>
-        </div>
 
-        <div class="container-project">
-            <p class="tittle-card">ALURA PLUS</p>
-            <p class="subtittle-card">Site apenas para Desktop, projeto desenvolvido com o intuito de aprender mais sobre
-                as tecnologias HTML & CSS e de programar sites a partir de um design no Figma,
-                disponibilizado pela plataforma Alura.
-            </p>
-            <div class="links-project">
-                <a href="https://github.com/guilhermedebrites/alura_plus" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
-                <a href="https://guilhermedebrites.github.io/alura_plus/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+            <div class="container-project">
+                <div class="contentproject-container">
+                    <p class="tittle-card">ALURA PLUS</p>
+                    <p class="subtittle-card">Site apenas para Desktop, projeto desenvolvido com o intuito de aprender mais sobre
+                        as tecnologias HTML & CSS e de programar sites a partir de um design no Figma,
+                        disponibilizado pela plataforma Alura.
+                    </p>
+                    <div class="links-project">
+                        <a href="https://github.com/guilhermedebrites/alura_plus" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
+                        <a href="https://guilhermedebrites.github.io/alura_plus/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+                    </div>
+                </div>
+                <div class="project-card proj aluraplus desktop" id="aluraplus"></div>
+                <a href="https://guilhermedebrites.github.io/alura_plus/"><div class="project-card proj aluraplus mobile"></div></a>
             </div>
-            <a href="https://guilhermedebrites.github.io/alura_plus/"><div class="project-card proj aluraplus"></div></a>
+
+            <div class="container-project" id="second-container-projects">
+                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+            </div>
+
+            <div class="container-project" id="second-container-projects">
+                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+            </div>
+
+            <div class="container-project" id="second-container-projects">
+                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+            </div>
+
+            <div class="container-project" id="second-container-projects">
+                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+            </div>
+
         </div>
 
     </section>
@@ -192,48 +238,54 @@
     <section class="certificates" id="certificates">
         <h5 class="tittle-certificates">Certificados</h5>
         
-        <div class="container-certificates show">
-            <p class="tittle-card-projects">HTML & CSS</p>
-            <a href="https://cursos.alura.com.br/degree/certificate/bde594f0-4030-43fa-9b4a-70e1d7df4793"><div class="certificates-card certi certihtmlcss"></div></a>
-        </div>
+        <div class="container-1440px">
+            <div class="container-certificates show">
+                <p class="tittle-card-projects">HTML & CSS</p>
+                <a href="https://cursos.alura.com.br/degree/certificate/bde594f0-4030-43fa-9b4a-70e1d7df4793"><div class="certificates-card certi certihtmlcss"></div></a>
+            </div>
 
-        <div class="container-certificates show">
-            <p class="tittle-card-projects">LAYOUTS RESPONSIVOS</p>
-            <a href="https://cursos.alura.com.br/certificate/f387809a-98a0-4205-ac7f-7bf94ce7c97b"><div class="certificates-card certi certiresponsividade"></div></a>
-        </div>
+            <div class="container-certificates show">
+                <p class="tittle-card-projects">LAYOUTS RESPONSIVOS</p>
+                <a href="https://cursos.alura.com.br/certificate/f387809a-98a0-4205-ac7f-7bf94ce7c97b"><div class="certificates-card certi certiresponsividade"></div></a>
+            </div>
 
-        <div class="container-certificates show">
-            <p class="tittle-card-projects">HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS</p>
-            <a href="https://cursos.alura.com.br/certificate/3ba32b8e-46e6-472b-ab95-57c297a2fda6"><div class="certificates-card certi certihttp"></div></a>
+            <div class="container-certificates show">
+                <p class="tittle-card-projects">HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS</p>
+                <a href="https://cursos.alura.com.br/certificate/3ba32b8e-46e6-472b-ab95-57c297a2fda6"><div class="certificates-card certi certihttp"></div></a>
+            </div>
         </div>
 
         <div class="center">
             <button class="showmore">MOSTRAR MAIS</button>
         </div>
 
-        <div class="container-certificates shownow">
-            <p class="tittle-card-projects">JAVASCRIPT: EXPLORANDO A LINGUAGEM</p>
-            <a href="https://cursos.alura.com.br/certificate/76584d00-e33b-4958-8e06-6b3a22a037ce"><div class="certificates-card certi certijsexp"></div></a>
+        <div class="container-1440px">
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">JAVASCRIPT: EXPLORANDO A LINGUAGEM</p>
+                <a href="https://cursos.alura.com.br/certificate/76584d00-e33b-4958-8e06-6b3a22a037ce"><div class="certificates-card certi certijsexp"></div></a>
+            </div>
+
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">JAVASCRIPT PARA WEB: CRIE PÁGINAS DINÂMICAS</p>
+                <a href="https://cursos.alura.com.br/certificate/cb2c40ea-ddc6-4026-981c-166a99c304d2"><div class="certificates-card certi certijweb"></div></a>
+            </div>
+
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">C# E ORIENTAÇÃO A OBJETOS</p>
+                <a href="https://cursos.alura.com.br/degree/certificate/56c961f1-55b0-4679-b891-c43ce5db7fd4"><div class="certificates-card certi certicsharp"></div></a>
+            </div>
         </div>
 
-        <div class="container-certificates shownow">
-            <p class="tittle-card-projects">JAVASCRIPT PARA WEB: CRIE PÁGINAS DINÂMICAS</p>
-            <a href="https://cursos.alura.com.br/certificate/cb2c40ea-ddc6-4026-981c-166a99c304d2"><div class="certificates-card certi certijweb"></div></a>
-        </div>
+        <div class="container-1440px">
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">API REST COM .NET 5: OPERAÇÕES ESSENCIAIS COM VERBOS HTTP</p>
+                <a href="https://cursos.alura.com.br/certificate/ce0079bc-5a9d-4ef5-aed6-d3416534cfb8"><div class="certificates-card certi certiapirestdotnet"></div></a>
+            </div>
 
-        <div class="container-certificates shownow">
-            <p class="tittle-card-projects">C# E ORIENTAÇÃO A OBJETOS</p>
-            <a href="https://cursos.alura.com.br/degree/certificate/56c961f1-55b0-4679-b891-c43ce5db7fd4"><div class="certificates-card certi certicsharp"></div></a>
-        </div>
-
-        <div class="container-certificates shownow">
-            <p class="tittle-card-projects">API REST COM .NET 5: OPERAÇÕES ESSENCIAIS COM VERBOS HTTP</p>
-            <a href="https://cursos.alura.com.br/certificate/ce0079bc-5a9d-4ef5-aed6-d3416534cfb8"><div class="certificates-card certi certiapirestdotnet"></div></a>
-        </div>
-
-        <div class="container-certificates shownow">
-            <p class="tittle-card-projects">C#: PARALELISMO NO MUNDO REAL</p>
-            <a href="https://cursos.alura.com.br/certificate/7ef8ff68-14bc-4b77-a46c-d098e9ea0298"><div class="certificates-card certi certicsharpparalelismo"></div></a>
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">C#: PARALELISMO NO MUNDO REAL</p>
+                <a href="https://cursos.alura.com.br/certificate/7ef8ff68-14bc-4b77-a46c-d098e9ea0298"><div class="certificates-card certi certicsharpparalelismo"></div></a>
+            </div>
         </div>
 
         <div class="center">
@@ -292,9 +344,79 @@
 
     </footer>
     
+    <div class="modais">
+        <div id="modal-alurabooks" class="modal-container">
+            <div class="modal">
+                <button class="close-modal">x</button>
+                <h6 class="modal-tittle">ALURA BOOKS</h6>
+                <div class="modal-content">
+                    <div class="list-describe">
+                    <p class="project-describe">Site responsivo, usando tecnologias HTML & CSS, 
+                        produzido com base em um curso da plataforma Alura.</p>
+                    </div>
+                    <div class="modal-card proj alurabooks"></div>
+                </div>
+                <a href="https://github.com/guilhermedebrites/aluraBooks" class="link-modal">Repositório</a>
+                <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link-modal">Pré-view</a>
+            </div>
+        </div>
+
+        <div id="modal-hzc" class="modal-container">
+            <div class="modal">
+                <button class="close-modal">x</button>
+                <h6 class="modal-tittle">HZC</h6>
+                <div class="modal-content">
+                    <div class="list-describe">
+                    <p class="project-describe">Site responsivo, usando tecnologias HTML & CSS, nesse projeto
+                        foi bastante utilizado flex e gridbox, desenvolvido a partir de um layout no Figma,
+                        disponibilizado pela plataforma Alura.</p>
+                    </div>
+                    <div class="modal-card proj hzc"></div>
+                </div>
+                <a href="https://github.com/guilhermedebrites/aluraBooks" class="link-modal">Repositório</a>
+                <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link-modal">Pré-view</a>
+            </div>
+        </div>
+
+        <div id="modal-opttech" class="modal-container">
+            <div class="modal">
+                <button class="close-modal">x</button>
+                <h6 class="modal-tittle">OPTIMUS TECH</h6>
+                <div class="modal-content">
+                    <div class="list-describe">
+                    <p class="project-describe">Site apenas para Desktop, desafio 7daysOfCode de HTML & CSS, desafio proposto pela
+                        plataforma Alura, concluído com sucesso.</p>
+                    </div>
+                    <div class="modal-card proj opttech"></div>
+                </div>
+                <a href="https://github.com/guilhermedebrites/aluraBooks" class="link-modal">Repositório</a>
+                <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link-modal">Pré-view</a>
+            </div>
+        </div>
+
+        <div id="modal-aluraplus" class="modal-container">
+            <div class="modal">
+                <button class="close-modal">x</button>
+                <h6 class="modal-tittle">ALURA PLUS</h6>
+                <div class="modal-content">
+                    <div class="list-describe">
+                    <p class="project-describe">Site apenas para Desktop, projeto desenvolvido com o intuito de aprender mais sobre
+                        as tecnologias HTML & CSS e de programar sites a partir de um design no Figma,
+                        disponibilizado pela plataforma Alura.</p>
+                    </div>
+                    <div class="modal-card proj aluraplus"></div>
+                </div>
+                <a href="https://github.com/guilhermedebrites/aluraBooks" class="link-modal">Repositório</a>
+                <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link-modal">Pré-view</a>
+            </div>
+        </div>
+    </div>
+
+
     <script src="./assets/js/menu.js"></script>
     <script src="./assets/js/animations.js"></script>
     <script src="./assets/js/vanilla-tilt.js"></script>
+    <script src="./assets/js/modal.js"></script>
 
 </body>
 </html>
