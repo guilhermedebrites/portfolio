@@ -63,3 +63,51 @@
     text-decoration: none;
     color: white;
 }
+
+.header-desktop {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    .header {
+        padding-top: 0;
+        height: 70px;
+    }
+
+    .menu-bar, .logo-header, .menu-img  {
+        display: none;
+    }
+
+    .header-flex-desktop {
+        display: flex;
+        width: 100%;
+        margin-left: 5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-desktop {
+        display: inline-block;
+        width: 8rem;
+    }
+
+    .menu-list {
+        display: flex;
+        position: static;
+        top: 0;
+        height: 100%;
+        background-color: transparent;
+    }
+
+    .item-list {
+        border-bottom: 0;
+        padding: 0;
+        margin-right: 1rem;
+        text-transform: uppercase;
+    }
+
+    .link-list:hover {
+        color: #7B66AB;
+    }
+}

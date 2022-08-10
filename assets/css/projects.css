@@ -39,6 +39,10 @@
     opacity: 0.7;
 }
 
+.desktop {
+    display: none;
+}
+
 .link {
     cursor: pointer;
 }
@@ -71,4 +75,46 @@
 
 .aluraplus {
     background-image: url(../img/project-AluraPlus.png);
+}
+
+.comingsoon {
+    background-image: url(../img/Webinar-pana.svg);
+    opacity: .6;
+}
+
+#second-container-projects {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:1440px) {
+    
+    .projects {
+        height: 60vh;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .projects-tittle {
+        font-size: 50px;
+    }
+
+    .projects-flexcontainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-project {
+        margin: 0 .5rem;
+    }
+
+    .contentproject-container {
+        display: none;
+    }
 }

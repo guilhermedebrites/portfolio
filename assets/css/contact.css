@@ -61,3 +61,10 @@
     border: 1px solid lightgray;
     color: lightgray;
 }
+
+@media screen and (min-width:1440px) {
+
+    .tittle-contact {
+        font-size: 50px;
+    }
+}

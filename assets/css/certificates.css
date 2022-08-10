@@ -106,3 +106,21 @@
 .activeshow {
     display: block;
 }
+
+@media screen and (min-width:1440px) {
+    
+    .tittle-certificates {
+        font-size: 50px;
+    }
+
+    .container-1440px {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .tittle-card-projects {
+        display: none;
+    }
+}

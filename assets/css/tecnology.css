@@ -93,3 +93,64 @@
 #react {
     width: 1.8rem;
 }
+
+@media screen and (min-width:1440px) {
+      
+    .tecnology {
+        height: 60vh;
+    }
+
+    .tecnology-tittle {
+        font-size: 50px;
+    }
+    
+    .subtittle {
+        font-size: 15px;
+    }
+
+    .language-flexcontainer {
+        display: flex;
+        margin: 0 5rem;
+    }
+
+    .language {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container {
+        width: 10rem;
+    }
+
+    .photo-language {
+        width: 2.5rem;
+    }
+
+    #csharp {
+        width: 3.5rem;
+    }
+    
+    #react {
+        width: 2.8rem;
+    }
+
+    .tittle-language {
+        font-size: 15px;
+    }
+
+    .progresso {
+        margin-top: 1.2rem;
+        border: solid 1px gray;
+        width: 50%;
+        height: 1em;
+        border-radius: 15px;
+        padding: 3px;
+        text-align: center;
+    }
+    
+    .quant {
+        background-color: blueviolet;
+        height: 1em;
+        border-radius: 15px;
+    }
+}

@@ -27,3 +27,25 @@
     width: 15rem;
     animation: fluter 3s ease-in-out infinite;
 }
+
+@media screen and (min-width:1440px) {
+    .presentation {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60vh;
+    }
+
+    .name-presentation {
+        text-align: start;
+        font-size: 50px;
+    }
+
+    .describe-presentation {
+        font-size: 15px;
+    } 
+
+    .photo-presentation {
+        width: 22rem;
+    }
+}

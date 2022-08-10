@@ -21,3 +21,29 @@
     width: 20rem;
     animation: fluter 3s ease-in-out infinite;
 }
+
+@media screen and (min-width:1440px) {
+    
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60vh;
+    }
+
+    .about-container {
+        width: 40%;
+    }
+
+    .about-tittle {
+        font-size: 50px;
+    }
+    
+    .about-description {
+        font-size: 16px;
+    }
+
+    .photo-about {
+        width: 30rem;
+    }
+}
