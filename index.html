@@ -11,7 +11,8 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Portfólio | DeBrites </title>
+    <title> Portfólio | DeBrites </title>
+    <link rel="icon" type="image/png" href="./assets/img/team.svg">
 </head>
 <body>
     <header class="header">
@@ -126,6 +127,18 @@
 
             <div class="language">
                 <div class="container">
+                    <img src="./assets/img/vue.png" alt="Ícone da linguagem Vue.js" class="photo-language" id="vuejs">
+                    <p class="tittle-language">VUE.js</p>
+                </div>
+                <div class="progresso">
+                    <div class="quant qvuejs"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="language-flexcontainer">
+            <div class="language">
+                <div class="container">
                     <img src="./assets/img/csharp.png" alt="Ícone da linguagem C#" class="photo-language" id="csharp">
                     <p class="tittle-language">C#</p>
                 </div>
@@ -133,9 +146,7 @@
                     <div class="quant qcsharp"></div>
                 </div>
             </div>
-        </div>
 
-        <div class="language-flexcontainer">
             <div class="language">
                 <div class="container">
                     <img src="./assets/img/dotnet.png" alt="Ícone da linguagem .NET" class="photo-language">
@@ -146,6 +157,8 @@
                 </div>
             </div>
         </div>
+
+    </div>
 
     </section>
 
@@ -216,19 +229,29 @@
             </div>
 
             <div class="container-project" id="second-container-projects">
-                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+                <div class="contentproject-container">
+                    <p class="tittle-card">ROBOTRON 2000</p>
+                    <p class="subtittle-card">Site apenas para Desktop, um projeto feito para aprender mais e praticar Javascript.
+                    </p>
+                    <div class="links-project">
+                        <a href="https://github.com/guilhermedebrites/robotron2000" class="link"><img src="./assets/img/git.png" alt="Link do repositório do projeto" class="link-icon"></a>
+                        <a href="https://guilhermedebrites.github.io/robotron2000/" class="link"><img src="./assets/img/linksite.png" alt="Link do pre-view do projeto" class="link-icon"></a>
+                    </div>
+                </div>
+                <div class="project-card proj robotron2000 desktop" id="robotron2000"></div>
+                <a href="https://guilhermedebrites.github.io/robotron2000/"><div class="project-card proj robotron2000 mobile"></div></a>
             </div>
 
             <div class="container-project" id="second-container-projects">
-                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+                <div class="project-card proj comingsoon desktop"></div>
             </div>
 
             <div class="container-project" id="second-container-projects">
-                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+                <div class="project-card proj comingsoon desktop"></div>
             </div>
 
             <div class="container-project" id="second-container-projects">
-                <div class="project-card proj comingsoon desktop" id="aluraplus"></div>
+                <div class="project-card proj comingsoon desktop"></div>
             </div>
 
         </div>
@@ -271,12 +294,17 @@
             </div>
 
             <div class="container-certificates shownow">
-                <p class="tittle-card-projects">C# E ORIENTAÇÃO A OBJETOS</p>
-                <a href="https://cursos.alura.com.br/degree/certificate/56c961f1-55b0-4679-b891-c43ce5db7fd4"><div class="certificates-card certi certicsharp"></div></a>
+                <p class="tittle-card-projects">JAVASCRIPT: PROGRAMANDO NA LINGUAGEM DA WEB</p>
+                <a href="https://cursos.alura.com.br/certificate/b5e5d44b-10ba-498f-980d-316df1b2826b"><div class="certificates-card certi certijsprogramweb"></div></a>
             </div>
         </div>
 
         <div class="container-1440px">
+            <div class="container-certificates shownow">
+                <p class="tittle-card-projects">C# E ORIENTAÇÃO A OBJETOS</p>
+                <a href="https://cursos.alura.com.br/degree/certificate/56c961f1-55b0-4679-b891-c43ce5db7fd4"><div class="certificates-card certi certicsharp"></div></a>
+            </div>
+
             <div class="container-certificates shownow">
                 <p class="tittle-card-projects">API REST COM .NET 5: OPERAÇÕES ESSENCIAIS COM VERBOS HTTP</p>
                 <a href="https://cursos.alura.com.br/certificate/ce0079bc-5a9d-4ef5-aed6-d3416534cfb8"><div class="certificates-card certi certiapirestdotnet"></div></a>
@@ -408,6 +436,22 @@
                 </div>
                 <a href="https://github.com/guilhermedebrites/aluraBooks" class="link-modal">Repositório</a>
                 <a href="https://guilhermedebrites.github.io/aluraBooks/" class="link-modal">Pré-view</a>
+            </div>
+        </div>
+
+        <div id="modal-robotron" class="modal-container">
+            <div class="modal">
+                <button class="close-modal">x</button>
+                <h6 class="modal-tittle">ROBOTRON 2000</h6>
+                <div class="modal-content">
+                    <div class="list-describe">
+                    <p class="project-describe">Site apenas para Desktop, um projeto feito 
+                        para aprender mais e praticar Javascript.</p>
+                    </div>
+                    <div class="modal-card proj robotron2000"></div>
+                </div>
+                <a href="https://github.com/guilhermedebrites/robotron2000" class="link-modal">Repositório</a>
+                <a href="https://guilhermedebrites.github.io/robotron2000/" class="link-modal">Pré-view</a>
             </div>
         </div>
     </div>
