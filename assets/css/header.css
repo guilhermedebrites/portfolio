@@ -40,6 +40,7 @@
     display: none;
     position: fixed;
     top: 3rem;
+    left: 0rem;
     height: 100vh;
     background-color: #0e0f33;
 }

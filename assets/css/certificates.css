@@ -63,6 +63,11 @@
     background-image: url(../img/certificado-jweb.png);
 }
 
+.certijsprogramweb {
+    background-image: url(../img/certificado-jsprogramweb.png);
+}
+
+
 .certicsharp {
     background-image: url(../img/certificado-csharp.png);
 }
@@ -85,7 +90,7 @@
     text-align: center;
     color: white;
     margin-top: 2rem;
-    padding: .5em;
+    padding: 1em;
     background-color: #7B66AB;
     border: 1px solid #7B66AB;
     border-radius: 5px;
@@ -97,7 +102,7 @@
     text-align: center;
     color: white;
     margin-top: 2rem;
-    padding: .5em;
+    padding: 1em;
     background-color: #7B66AB;
     border: 1px solid #7B66AB;
     border-radius: 5px;
@@ -109,18 +114,34 @@
 
 @media screen and (min-width:1440px) {
     
+    .certificates {
+        padding-top: 10rem;
+    }
+
     .tittle-certificates {
         font-size: 50px;
     }
 
     .container-1440px {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         margin: 2rem;
     }
 
     .tittle-card-projects {
         display: none;
+    }
+
+    .certificates-card {
+        margin: 0 2rem;
+    }
+
+    .showmore, .showless {
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+        padding: 1.5em;
     }
 }

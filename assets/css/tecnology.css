@@ -59,15 +59,15 @@
 }
 
 .qhtml {
-    width: 80%;
+    width: 98%;
 }
 
 .qcss {
-    width: 80%;
+    width: 95%;
 }
 
 .qjs {
-    width: 40%;
+    width: 70%;
 }
 
 .qreact {
@@ -75,15 +75,19 @@
 }
 
 .qnode {
-    width: 10%;
+    width: 3%;
 }
 
 .qcsharp {
-    width: 50%;
+    width: 40%;
 }
 
 .qdotnet {
-    width: 40%;
+    width: 20%;
+}
+
+.qvuejs {
+    width: 3%;
 }
 
 #csharp {
@@ -94,10 +98,15 @@
     width: 1.8rem;
 }
 
+#vuejs {
+    width: 2rem;
+}
+
 @media screen and (min-width:1440px) {
       
     .tecnology {
-        height: 60vh;
+        padding-top: 10rem;
+        height: 30vh;
     }
 
     .tecnology-tittle {
@@ -133,6 +142,10 @@
     #react {
         width: 2.8rem;
     }
+
+    #vuejs {
+        width: 3rem;
+    }    
 
     .tittle-language {
         font-size: 15px;

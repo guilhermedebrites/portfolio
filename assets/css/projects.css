@@ -77,6 +77,11 @@
     background-image: url(../img/project-AluraPlus.png);
 }
 
+.robotron2000 {
+    background-size: 120%;
+    background-image: url(../img/project-robotron2000.png);
+}
+
 .comingsoon {
     background-image: url(../img/Webinar-pana.svg);
     opacity: .6;
@@ -89,7 +94,8 @@
 @media screen and (min-width:1440px) {
     
     .projects {
-        height: 60vh;
+        padding-top: 10rem;
+        height: 40vh;
     }
 
     .mobile {

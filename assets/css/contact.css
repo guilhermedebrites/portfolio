@@ -64,6 +64,10 @@
 
 @media screen and (min-width:1440px) {
 
+    .contact {
+        padding-top: 10rem;
+    }    
+
     .tittle-contact {
         font-size: 50px;
     }
