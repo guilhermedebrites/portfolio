@@ -1,5 +1,5 @@
 .certificates {
-    padding-top: 5em;
+    padding-top: 7em;
 }
 
 .tittle-certificates {
@@ -112,21 +112,20 @@
     display: block;
 }
 
-@media screen and (min-width:1440px) {
-    
+@media screen and (min-width:1024px) {
+
     .certificates {
         padding-top: 10rem;
     }
 
     .tittle-certificates {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .container-1440px {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 2rem;
     }
 
     .tittle-card-projects {
@@ -134,7 +133,9 @@
     }
 
     .certificates-card {
-        margin: 0 2rem;
+        width: 15rem;
+        height: 10rem;
+        margin: 2rem;
     }
 
     .showmore, .showless {
@@ -142,6 +143,24 @@
         text-align: center;
         color: white;
         margin-top: 2rem;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+
+    .tittle-certificates {
+        font-size: 50px;
+    }
+
+    .showmore, .showless {
         padding: 1.5em;
+    }
+
+    .certificates-card {
+        width: 20rem;
+        height: 13rem;
+        margin: 2rem;
     }
 }

@@ -1,5 +1,5 @@
 .contact {
-    padding-top: 5em;
+    padding-top: 7em;
 }
 
 .tittle-contact {
@@ -62,11 +62,15 @@
     color: lightgray;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
 
     .contact {
-        padding-top: 10rem;
+        padding-top: 7rem;
+        height: 70vh;
     }    
+}
+
+@media screen and (min-width:1440px) {
 
     .tittle-contact {
         font-size: 50px;

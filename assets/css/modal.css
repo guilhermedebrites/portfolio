@@ -93,3 +93,10 @@
     border: 2px solid #7B66AB;
     border-radius: 5px;
 }
+
+@media screen and (max-width:1024px) {
+    .modal {
+        width: 800px;
+    }
+    
+}

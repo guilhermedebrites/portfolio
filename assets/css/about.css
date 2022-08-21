@@ -1,5 +1,5 @@
 .about {
-    padding-top: 5em;
+    padding-top: 8em;
     text-align: center;
 }
 
@@ -22,16 +22,39 @@
     animation: fluter 3s ease-in-out infinite;
 }
 
-@media screen and (min-width:1440px) {
-    
+@media screen and (min-width:1024px) {
     .about {
         display: flex;
         align-items: center;
         justify-content: space-around;
         height: 30vh;
+        text-align: start;
     }
 
     .about-container {
+        width: 50%;
+        margin: 0;
+    }
+
+    .about-tittle {
+        font-size: 45px;
+        margin-left: 3rem;
+    }
+    
+    .about-description {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .photo-about {
+        width: 25rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .about-container {
+        margin-left: 2.5rem;
         width: 40%;
     }
 

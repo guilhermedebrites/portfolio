@@ -28,21 +28,38 @@
     animation: fluter 3s ease-in-out infinite;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
+
     .presentation {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 45vh;
+        height: 80vh;
     }
 
     .name-presentation {
         text-align: start;
-        font-size: 50px;
+        font-size: 45px;
     }
-
+    
     .describe-presentation {
         font-size: 15px;
+        margin-left: 1rem;
+    } 
+
+    .photo-presentation {
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .name-presentation {
+        font-size: 50px;
+    }
+    
+    .describe-presentation {
+        margin-left: 0;
     } 
 
     .photo-presentation {

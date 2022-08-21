@@ -1,5 +1,5 @@
 .tecnology {
-    padding-top: 5em;
+    padding-top: 7em;
 }
 
 .tecnology-tittle {
@@ -102,17 +102,17 @@
     width: 2rem;
 }
 
-@media screen and (min-width:1440px) {
-      
+@media screen and (min-width:1024px) {
+
     .tecnology {
         padding-top: 10rem;
-        height: 30vh;
+        height: 45vh;
     }
 
     .tecnology-tittle {
-        font-size: 50px;
+        font-size: 45px;
     }
-    
+
     .subtittle {
         font-size: 15px;
     }
@@ -132,23 +132,23 @@
     }
 
     .photo-language {
-        width: 2.5rem;
+        width: 2rem;
     }
 
     #csharp {
-        width: 3.5rem;
+        width: 3rem;
     }
     
     #react {
-        width: 2.8rem;
+        width: 2.3rem;
     }
 
     #vuejs {
-        width: 3rem;
-    }    
+        width: 2.5rem;
+    }   
 
     .tittle-language {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .progresso {
@@ -166,4 +166,33 @@
         height: 1em;
         border-radius: 15px;
     }
+
+}
+
+@media screen and (min-width:1440px) {
+     
+    .tecnology-tittle {
+        font-size: 50px;
+    }
+
+    .photo-language {
+        width: 2.5rem;
+    }
+
+    #csharp {
+        width: 3.5rem;
+    }
+    
+    #react {
+        width: 2.8rem;
+    }
+
+    #vuejs {
+        width: 3rem;
+    }   
+
+    .tittle-language {
+        font-size: 15px;
+    }
+
 }
