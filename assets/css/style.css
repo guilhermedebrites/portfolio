@@ -40,6 +40,10 @@ body {
     color: white;
 }
 
+.close-modal {
+    border-color: #17194B;
+}
+
 @keyframes fluter {
     0%, 100% {
         transform: translateY(0px);
