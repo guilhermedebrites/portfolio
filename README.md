@@ -16,3 +16,22 @@
 + Projects
 + Certificates
 + Contact
+
+## Tecnologys used:
+
+<table>
+  <tr>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>JAVASCRIPT</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>3</td>
+    <td>*</td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/toreadme/gifportfolio.gif" alt="Gif do site"></img>
+</p>
